@@ -1,0 +1,139 @@
+@font-face {
+    font-family: RobotoSlab;
+    src: url(../src/fonts/RobotoSlab_var.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    background-image: url(../src/stars.png);
+    font-family: 'RobotoSlab', monospace;
+}
+
+hr {
+    margin: 0;
+    color: white;
+    margin-top: .8rem;
+    margin-bottom: 2rem;
+
+    width: 23.7vw;
+}
+
+h1 {
+    font-size: 2.8rem;
+    line-height: 3.2rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2.8rem;
+    font-weight: 300;
+}
+
+h3 {
+    margin-top: 6vw;
+
+    text-align: center;
+    font-size: 1.6rem;;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    column-count: 2;
+    text-align: justify;
+    hyphens: manual;
+    width: 48vw;
+}
+
+ul {padding: 0;}
+
+li {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    list-style: none;
+}
+
+.icons {
+    height: 3rem;
+    margin-top: 2.4rem;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+    height: 100%;
+}
+
+#intro {
+    width: 54vw;
+    height: 100%;
+    margin-left: 6vw;
+
+    color: white;
+}
+
+#rockets {
+    margin-top: 4rem;
+    margin-left: 30vw;
+    margin-right: auto;
+    position: relative;
+    transition: .3s ease-in;
+}
+
+#r1, #r2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#r2 {
+    opacity: 0;
+    transition: opacity .1s linear;
+}
+#r2:hover {
+    opacity: 1;
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+
+#anim {
+    transition: .3s;
+}
+
+#meta {
+    color: black;
+    width: 32vw;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    height: 100vh;
+    /* background-color: rgb(255, 157, 122);*/
+    background-image: url(../src/img/shape_start.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-self: flex-end;
+    transition: .3s linear;
+    
+}
