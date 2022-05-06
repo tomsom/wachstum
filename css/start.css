@@ -1,5 +1,13 @@
+@font-face {
+    font-family: RobotoSlab;
+    src: url(../src/fonts/RobotoSlab_var.ttf);
+}
+
 body {
     margin: 0;
+    overflow-x: hidden;
+    color: white;
+    font-family: 'RobotoSlab', monospace;
 }
 
 #text_content {
@@ -70,9 +78,18 @@ body {
 
 #rocket_bottom {
     background-color: #a0ecff;
+    background: linear-gradient(to bottom, #a0ecff, #deeff3);
     position: relative;
     height: 100vh;
     width: 100vw;
+}
+
+.shake{
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    transform: rotate(0deg);
+    backface-visibility: hidden;
+    perspective: 1000px;
 }
 
 #background {
@@ -83,12 +100,67 @@ body {
     background-image: url(../src/stars.png);
 }
 
-#rocket {
+.rock {
     position: absolute;
     width: 100%;
     height: fit-content;
     bottom: 0;
 }
+.launch {
+    transition: linear;
+    transition-duration: 1s;
+    transform: translateY(-15vh);
+
+}
+
+#rocket_launching,
+#spark1,
+#spark2,
+#spark3,
+#lever_down {display: none;}
+
+
+
+#lever_anim1, #lever_anim2 {
+    opacity: 0;
+    transition: .2s opacity;
+}
+
+#lever_anim1 { animation: lever_highlight1 4s linear infinite;}
+@keyframes lever_highlight1 {
+    65% { opacity: 0;}
+    75% { opacity: .7;}
+    97% { opacity: .7;}
+}
+
+#lever_anim2 { animation: lever_highlight2 4s linear infinite;}
+@keyframes lever_highlight2 {
+    75% { opacity: 0;}
+    85% { opacity: .4;}
+    97% { opacity: .4;}
+}
+
+
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-5px, 20px, 0) rotate(5deg);
+    }
+    
+    20%, 80% {
+      transform: translate3d(10px, -10px, 0) rotate(-4deg);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-8px, -15px, 0) rotate(0deg);
+    }
+  
+    40%, 60% {
+      transform: translate3d(12px, 18px, 0) rotate(2deg);
+    }
+  }
+
+
+
 
 #brak_o, #brak_c {
     position: fixed;

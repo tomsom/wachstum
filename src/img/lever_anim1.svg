@@ -2,19 +2,19 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="60.690083mm"
-   height="94.194565mm"
-   viewBox="0 0 60.690083 94.194565"
+   width="1900mm"
+   height="1080mm"
+   viewBox="0 0 1900 1080"
    version="1.1"
-   id="svg10530"
-   inkscape:version="1.2-alpha1 (b6a15bb, 2022-02-23)"
-   sodipodi:docname="shape_start.svg"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="rockert_ready_a1.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
-     id="namedview10532"
+     id="namedview7"
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
@@ -23,28 +23,30 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:snap-text-baseline="false"
-     inkscape:zoom="1.8116734"
-     inkscape:cx="-7.4516743"
-     inkscape:cy="158.96905"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="0.5"
+     inkscape:cx="1223"
+     inkscape:cy="3582"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
-     inkscape:deskcolor="#d1d1d1" />
+     inkscape:current-layer="layer1" />
   <defs
-     id="defs10527" />
+     id="defs2" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-96.647897,-57.102177)">
-    <path
-       id="rect44879"
-       style="fill:#ff9d7a;fill-opacity:1;stroke:none;stroke-width:2.59225;stroke-linejoin:round"
-       d="m 101.86776,57.102177 h 55.47022 v 94.194563 h -55.47022 c -7.479443,-31.39818 -6.420064,-62.796374 0,-94.194563 z"
-       sodipodi:nodetypes="ccccc" />
+     transform="translate(335.24158,25.658978)">
+    <circle
+       style="fill:#ff6753;fill-opacity:0.760551;stroke:none;stroke-width:74.2519;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle165388"
+       cx="36.46703"
+       cy="819.01855"
+       r="31.581841"
+       transform="matrix(-0.9863502,0.16466109,0.16466109,0.9863502,0,0)" />
   </g>
 </svg>

@@ -19,9 +19,9 @@ rocket.addEventListener("click", function(event) {
     document.getElementById("anim").style.opacity = "0";
     document.getElementById("anim").style.visibility = "hidden";
     document.getElementById("meta").style.visibility = "hidden";
-    rocket.style.transform = "translateX(-50vw)";
+    rocket.style.transform = "translateX(-60vw)";
 
-    setTimeout(() => {  document.location.href = "html/start.html"; }, 400);
+    setTimeout(() => {  document.location.href = "html/start.html"; }, 450);
 
     
 })

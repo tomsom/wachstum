@@ -3,7 +3,61 @@ window.onload = function() {
     document.getElementById("fade_in").style.opacity = "1";
     document.getElementById("text").style.opacity = "1";
     document.getElementById("down").style.opacity = "1";
+
 }
+
+document.addEventListener('keydown', function(e) {
+    if(e.code == "Space") {
+        console.log("this is my space!");
+        startAnim();
+
+    }
+});
+
+
+function startAnim() {
+    document.getElementById("lever_anim1").style.display = "none";
+    document.getElementById("lever_anim2").style.display = "none";
+    document.getElementById("lever_up").style.display = "none";
+
+    document.getElementById("lever_down").style.display = "block";
+    document.getElementById("spark1").style.display = "block";
+    
+
+    // document.getElementById("rockets").style.display = "none";
+
+    setTimeout(() => {
+        document.getElementById("spark1").style.display = "none";
+        document.getElementById("spark2").style.display = "block";
+
+        setTimeout(() => {
+            document.getElementById("spark2").style.display = "none";
+            document.getElementById("spark3").style.display = "block";
+
+            setTimeout(() => {
+                document.getElementById("spark3").style.display = "none";
+                document.getElementById("rocket").classList.add("shake");
+
+                var rock_lau = document.getElementById("rocket_launching");
+                rock_lau.style.display = "block";
+                rock_lau.classList.add("launch");
+                document.getElementById("rocket_wired").style.display = "none";
+            }, 180);
+
+        }, 150);
+
+        
+
+    }, 150);
+    
+}
+
+
+
+
+// document.addEventListener("keydown", function(event) {
+//     if(event = 32){console.log("this is my space!")}
+//   })
 
 const body = document.getElementById("text_content");
 

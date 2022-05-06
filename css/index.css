@@ -8,6 +8,7 @@ body {
     background-color: black;
     background-image: url(../src/stars.png);
     font-family: 'RobotoSlab', monospace;
+    overflow: hidden;
 }
 
 hr {
@@ -23,15 +24,18 @@ h1 {
     font-size: 2.8rem;
     line-height: 3.2rem;
     margin: 0;
+    background-color: black;
+
 }
 
 h2 {
     font-size: 2.8rem;
     font-weight: 300;
+    background-color: black;
+
 }
 
 h3 {
-    margin-top: 6vw;
 
     text-align: center;
     font-size: 1.6rem;;
@@ -44,6 +48,7 @@ p {
     text-align: justify;
     hyphens: manual;
     width: 48vw;
+    background-color: black;
 }
 
 ul {padding: 0;}
@@ -78,10 +83,9 @@ section {
 
 #rockets {
     margin-top: 4rem;
-    margin-left: 30vw;
-    margin-right: auto;
+    margin-left: 38vw;
     position: relative;
-    transition: .3s ease-in;
+    transition: .35s ease-in;
 }
 
 #r1, #r2 {
@@ -124,11 +128,15 @@ section {
 }
 
 #meta {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
     color: black;
     width: 32vw;
     padding-right: 4vw;
     padding-left: 4vw;
-    height: 100vh;
     /* background-color: rgb(255, 157, 122);*/
     background-image: url(../src/img/shape_start.svg);
     background-size: cover;
