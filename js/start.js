@@ -48,7 +48,7 @@ function startAnim() {
                 document.getElementById("rocket_wired").style.display = "none";
 
                 setTimeout(() => {
-                    document.location.href = "planet_system.html";
+                    document.location.href = "cockpit.html";
                 }, 800);
 
             }, 180);

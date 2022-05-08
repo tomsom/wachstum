@@ -31,4 +31,21 @@ function setTrail(trail) {
     document.getElementById("subs_trail").style.opacity = "0";
 
     document.getElementById(trail + "_trail").style.opacity = "1";
+
+    document.getElementById("d_def").style.opacity = "0";
+    document.getElementById("d_kapi").style.opacity = "0";
+    document.getElementById("d_vari").style.opacity = "0";
+    document.getElementById("d_subs").style.opacity = "0";
+
+    document.getElementById("d_" + trail).style.opacity = "1";
+}
+
+
+function setDisplay(display) {
+    document.getElementById("d_def").style.opacity = "0";
+    document.getElementById("d_kapi").style.opacity = "0";
+    document.getElementById("d_vari").style.opacity = "0";
+    document.getElementById("d_subs").style.opacity = "0";
+
+    document.getElementById("d_" + display).style.opacity = "1";
 }

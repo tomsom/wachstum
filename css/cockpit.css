@@ -1,3 +1,12 @@
+@font-face {
+    font-family: RobotoSlab;
+    src: url(../src/fonts/RobotoSlab_var.ttf);
+}
+@font-face {
+    font-family: ShareTech;
+    src: url(../src/fonts/ShareTechMono.ttf);
+}
+
 body {
     overflow: hidden;
     margin: 0;
@@ -90,10 +99,78 @@ body {
 }
 
 #monitor {
+    overflow: hidden;
+    font-family: ShareTech;
+    color: white;
     position: relative;
     right: 0px;
     width: 80vh;
     height: 60vh;
-    border: solid 3vh red;
+    border: solid 3vh #333;
+    background-color: black;
     transform: perspective(60px) rotateY(-1deg);
+}
+
+h3 {
+    letter-spacing: 4px;
+    text-transform: lowercase;
+}
+
+h2 {
+    text-transform: lowercase;
+}
+
+h1 {
+    font-size: 2.4rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#d_def,
+.display {
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+    transition: .3s ease-in-out;
+}
+
+.display {
+    width: 50vh;
+}
+
+#d_kapi,
+#d_vari,
+#d_subs {
+    opacity: 0;
+}
+
+.planet_prev {
+    position: absolute;
+    top: -3rem;
+    left: 51vh;
+    height: 60vh;
+
+    animation: rotate 70s infinite linear;
+}
+
+#cursor_img {
+    margin-top: 9vh;
+    margin-left: 8rem;
+    height: 20vh;
+    width: 20vh;
+
+    animation: pulse 3s infinite ease-in-out;
+    transition: ease-in-out;
+}
+
+@keyframes pulse {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.2);}
+    100% {transform: scale(1);}
+}
+
+@keyframes rotate {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(-360deg);}
 }
