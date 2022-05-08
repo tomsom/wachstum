@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="160mm"
+   height="160mm"
+   viewBox="0 0 160.00001 160.00001"
+   version="1.1"
+   id="svg98200"
+   inkscape:version="1.2-alpha1 (b6a15bb, 2022-02-23)"
+   sodipodi:docname="radar_trail_subs.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview98202"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="true"
+     inkscape:zoom="1.3932941"
+     inkscape:cx="239.36081"
+     inkscape:cy="365.3213"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="-91.289733,119.94361"
+       orientation="0,-1"
+       id="guide107175" />
+    <sodipodi:guide
+       position="79.946934,268.71644"
+       orientation="1,0"
+       id="guide109999" />
+    <sodipodi:guide
+       position="40.018531,241.07687"
+       orientation="1,0"
+       id="guide111817" />
+    <sodipodi:guide
+       position="-250.95853,79.967395"
+       orientation="0,-1"
+       id="guide113485" />
+    <sodipodi:guide
+       position="99.902798,125.22202"
+       orientation="1,0"
+       id="guide122825" />
+    <sodipodi:guide
+       position="119.99198,117.50325"
+       orientation="1,0"
+       id="guide125277" />
+    <sodipodi:guide
+       position="-294.12521,59.947281"
+       orientation="0,-1"
+       id="guide126149" />
+  </sodipodi:namedview>
+  <defs
+     id="defs98197" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#3b7900;stroke-width:0.682839;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.36568, 2.73136;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 123.02112,103.10792 c 13.55714,28.05053 -42.123191,-0.2888 -23.01588,-9.08 C 132.68413,78.9925 34.792826,51.624268 24.666802,75.203437 10.548984,108.07778 85.391868,81.63564 79.619058,123.67505"
+       id="path130064"
+       sodipodi:nodetypes="cssc" />
+  </g>
+</svg>

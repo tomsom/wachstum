@@ -1,0 +1,99 @@
+body {
+    overflow: hidden;
+    margin: 0;
+}
+
+#center {
+    width: 160vh;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: khaki;
+}
+
+#c_left {
+    position: relative;
+    left: 0;
+    width: 80vh;
+    height: 100vh;
+    background-color: yellowgreen;
+}
+
+#c_right {
+    position: relative;
+    left: 80vh;
+    top: -100vh;
+    width: 80vh;
+    height: 100vh;
+    background-color: greenyellow;
+}
+
+#radar {
+    position: relative;
+    top: -15vh;
+    left: -10vh;
+    width: calc(80vh - 10vh);
+    height: calc(80vh - 10vh);
+    border-radius: 50vh;
+    border: solid 3.5rem #333;
+    cursor: url("../src/img/radar_cursor.png") 32 32, auto; 
+    background-color: black;
+    /* background-image: url("../src/img/stars.png"); */
+    background-image: url("../src/img/radar_default.svg");
+    background-size: contain;
+}
+
+.trail {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .3s;
+}
+
+#def_trail {
+    opacity: 1;
+}
+
+.planet {
+    position: absolute;
+    width: 4.6vh;
+    height: 4.6vh;
+    border-radius: 3vh;
+    transform: translate(-0.95vh, -0.95vh);
+    border-radius: 2rem;
+}
+
+#kapitalus {
+    top: 50%;
+    left: 25%;
+}
+
+#varicrementer {
+    top: 25%;
+    left: 62.5%;
+}
+
+#subsistur {
+    top: 62.5%;
+    left: 75%;
+}
+
+
+#kapitalus:hover,
+#varicrementer:hover,
+#subsistur:hover {
+    cursor: url("../src/img/radar_cursor_active.svg") 32 32, auto;
+
+}
+
+#monitor {
+    position: relative;
+    right: 0px;
+    width: 80vh;
+    height: 60vh;
+    border: solid 3vh red;
+    transform: perspective(60px) rotateY(-1deg);
+}

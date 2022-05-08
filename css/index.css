@@ -6,7 +6,7 @@
 body {
     margin: 0;
     background-color: black;
-    background-image: url(../src/stars.png);
+    background-image: url(../src/img/stars.png);
     font-family: 'RobotoSlab', monospace;
     overflow: hidden;
 }

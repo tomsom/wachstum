@@ -97,7 +97,7 @@ body {
     width: 100%;
     height: 100%;
 
-    background-image: url(../src/stars.png);
+    background-image: url(../src/img/stars.png);
 }
 
 .rock {
@@ -107,17 +107,38 @@ body {
     bottom: 0;
 }
 .launch {
-    transition: linear;
-    transition-duration: 1s;
-    transform: translateY(-15vh);
+    transition: ease-in;
+    transition-duration: .5s;
+    transform: translateY(-80vh);
 
 }
 
-#rocket_launching,
+#smoke {
+    opacity: 0;
+    transition: .4s linear;
+}
+
+#black {
+ opacity: 0;
+ background-color: #000;
+ z-index: 10;
+ height: 100%;
+ transition: .8s ease-in;
+}
+
+/* #rocket_launching, */
 #spark1,
 #spark2,
 #spark3,
 #lever_down {display: none;}
+
+#rocket_launching {
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
 
 
 

@@ -39,9 +39,18 @@ function startAnim() {
                 document.getElementById("rocket").classList.add("shake");
 
                 var rock_lau = document.getElementById("rocket_launching");
-                rock_lau.style.display = "block";
-                rock_lau.classList.add("launch");
+                rock_lau.style.visibility = "visible";
+                rock_lau.classList.add("launch"); 
+
+                document.getElementById("smoke").style.opacity = ".6";
+                document.getElementById("black").style.opacity = "1";
+
                 document.getElementById("rocket_wired").style.display = "none";
+
+                setTimeout(() => {
+                    document.location.href = "planet_system.html";
+                }, 800);
+
             }, 180);
 
         }, 150);
