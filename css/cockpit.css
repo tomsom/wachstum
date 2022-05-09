@@ -10,14 +10,24 @@
 body {
     overflow: hidden;
     margin: 0;
+    background-color: black;
+    background-image: url(../src/img/stars.svg);
 }
+
+#warp {
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
 
 #center {
     width: 160vh;
     height: 100vh;
     margin-left: auto;
     margin-right: auto;
-    background-color: khaki;
+    z-index: 2;
 }
 
 #c_left {
@@ -25,7 +35,6 @@ body {
     left: 0;
     width: 80vh;
     height: 100vh;
-    background-color: yellowgreen;
 }
 
 #c_right {
@@ -34,7 +43,6 @@ body {
     top: -100vh;
     width: 80vh;
     height: 100vh;
-    background-color: greenyellow;
 }
 
 #radar {
@@ -44,12 +52,13 @@ body {
     width: calc(80vh - 10vh);
     height: calc(80vh - 10vh);
     border-radius: 50vh;
-    border: solid 3.5rem #333;
+    border:  solid 3vh #333;
     cursor: url("../src/img/radar_cursor.png") 32 32, auto; 
     background-color: black;
     /* background-image: url("../src/img/stars.png"); */
     background-image: url("../src/img/radar_default.svg");
     background-size: contain;
+    z-index: 3;
 }
 
 .trail {
@@ -60,6 +69,11 @@ body {
     height: 100%;
     opacity: 0;
     transition: .3s;
+}
+
+#radar_scan {
+    opacity: .8;
+    animation: rotate 6s infinite linear reverse;
 }
 
 #def_trail {
@@ -111,13 +125,38 @@ body {
     transform: perspective(60px) rotateY(-1deg);
 }
 
+hr {
+    color: white;
+    width: 20vh;
+    margin-left: 4rem;
+}
+
+p,
+q {
+    margin: .4rem;
+    margin-left: 1.6rem;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+
+q {
+    line-height:  6rem;
+    quotes: none;
+    font-style: italic;
+}
+
 h3 {
     letter-spacing: 4px;
     text-transform: lowercase;
 }
 
 h2 {
+    margin-left: 1.5rem;
+    margin-top: 2.5rem;
     text-transform: lowercase;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    font-weight: bolder;
 }
 
 h1 {
@@ -143,6 +182,12 @@ h1 {
 #d_vari,
 #d_subs {
     opacity: 0;
+}
+
+.info {
+    border-radius: 2rem;
+    border: solid 3px gray;
+
 }
 
 .planet_prev {
@@ -173,4 +218,28 @@ h1 {
 @keyframes rotate {
     0% {transform: rotate(0deg);}
     100% {transform: rotate(-360deg);}
+}
+
+
+#cockpit_controls,
+#cockpit_controls_sel {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    z-index: 1;
+}
+#cockpit_controls_sel {
+    display: none;
+}
+
+#black {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 1;
+    transition: 3s ease-in;
+    z-index: 10;
 }
