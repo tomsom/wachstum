@@ -1,10 +1,11 @@
 fadeIn();
 function fadeIn() {
+  document.getElementById("radar").focus();
     document.getElementById("black").style.opacity = "0";
 
     setTimeout(() => {
         document.getElementById("black").style.zIndex = "-1";
-    }, 3000);
+    }, 1000);
 }
 
 var kapi = document.getElementById("kapitalus");
@@ -93,15 +94,17 @@ var xMod = 0;
 var yMod = 0;
 var warpSpeed = 0;
 
+//WARP AND FADE-OUT
 document.addEventListener('keydown', function(e) {
-    if(sel !== "def") {
+    if(e.code == "Space" && sel !== "def") {
         warpSpeed = 1;
+        document.getElementById("black").style.transition = "2s ease-in";
         document.getElementById("black").style.zIndex = "10";
         document.getElementById("black").style.opacity = "1";
     
         setTimeout(() => {
             // document.location.href = sel + ".html";
-        }, 3000);
+        }, 2000);
     }
 });
 

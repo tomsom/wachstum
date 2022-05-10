@@ -113,16 +113,58 @@ body {
 }
 
 #monitor {
-    overflow: hidden;
+    /* overflow: hidden; */
     font-family: ShareTech;
     color: white;
     position: relative;
     right: 0px;
     width: 80vh;
     height: 60vh;
-    border: solid 3vh #333;
+    /* border: solid 3vh #333; */
     background-color: black;
-    transform: perspective(60px) rotateY(-1deg);
+    opacity: .6;
+    transform: perspective(60px) rotateY(-1deg) skewX(0deg);
+    transition: 0s linear;
+}
+
+.glitch {
+    animation: glitch 8s infinite alternate-reverse;
+}
+
+@keyframes glitch {
+    0%, 72% {opacity: .1;}
+    1%, 22%, 24%, 71%, 73% {opacity: .6;}
+    
+
+    19% {
+        transform: perspective(60px) rotateY(-1deg) skewX(0deg);
+    }
+    20% {
+        transform: perspective(60px) rotateY(-1deg) skewX(16deg);
+    }
+    21% {
+        transform: perspective(60px) rotateY(-1deg) skewX(0deg);
+    }
+    22% {
+        transform: perspective(60px) rotateY(-1deg) skewX(0deg);
+    }
+
+    76% {
+        text-shadow: none;
+        box-shadow: none;
+    }
+    77% {
+        text-shadow: 20px 2px rgb(1, 182, 253);
+        box-shadow: 20px 2px rgb(1, 182, 253);
+    }
+    80% {
+        text-shadow: 2px -4px red;
+        box-shadow: 2px -4px red;
+    }
+    81% {
+        text-shadow: none;
+        box-shadow: none;
+    }
 }
 
 hr {
@@ -207,6 +249,9 @@ h1 {
 
     animation: pulse 3s infinite ease-in-out;
     transition: ease-in-out;
+
+    
+
 }
 
 @keyframes pulse {
@@ -240,6 +285,6 @@ h1 {
     height: 100vh;
     background-color: black;
     opacity: 1;
-    transition: 3s ease-in;
+    transition: 1s ease-in;
     z-index: 10;
 }
