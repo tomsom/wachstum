@@ -125,30 +125,24 @@ body {
     opacity: .6;
     transform: perspective(60px) rotateY(-1deg) skewX(0deg);
     transition: 0s linear;
-}
-
-.glitch {
     animation: glitch 8s infinite alternate-reverse;
 }
 
+
+
 @keyframes glitch {
+    /* opacity */
     0%, 72% {opacity: .1;}
-    1%, 22%, 24%, 71%, 73% {opacity: .6;}
+    1%, 22%, 24%, 71%, 73% {opacity: .4;}
+    10% {opacity: .6;}
     
+    /* skew */
+    19% { transform: perspective(60px) rotateY(-1deg) skewX(0deg);}
+    20% { transform: perspective(60px) rotateY(-1deg) skewX(16deg);}
+    21% { transform: perspective(60px) rotateY(-1deg) skewX(0deg);}
+    22% { transform: perspective(60px) rotateY(-1deg) skewX(0deg);}
 
-    19% {
-        transform: perspective(60px) rotateY(-1deg) skewX(0deg);
-    }
-    20% {
-        transform: perspective(60px) rotateY(-1deg) skewX(16deg);
-    }
-    21% {
-        transform: perspective(60px) rotateY(-1deg) skewX(0deg);
-    }
-    22% {
-        transform: perspective(60px) rotateY(-1deg) skewX(0deg);
-    }
-
+    /* color glitch */
     76% {
         text-shadow: none;
         box-shadow: none;

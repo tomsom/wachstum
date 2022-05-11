@@ -103,7 +103,7 @@ document.addEventListener('keydown', function(e) {
         document.getElementById("black").style.opacity = "1";
     
         setTimeout(() => {
-            // document.location.href = sel + ".html";
+            document.location.href = sel + ".html";
         }, 2000);
     }
 });
