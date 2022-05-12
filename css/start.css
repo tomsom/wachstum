@@ -11,7 +11,7 @@ body {
 }
 
 #text_content {
-    height: 5000px;
+    height: 3000px;
     background: linear-gradient(#000, #04002c, #a0ecff);
     
 }
@@ -139,8 +139,47 @@ body {
     width: 100%;
     height: 100%;
 }
+#brak_l, #brak_r {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4rem;
+    height: calc(100% - 1.4rem);
+    border: solid .7rem #ff6753;
+    border-right: none;
+}
 
+#brak_r {
+    left: auto;
+    right: 0;
+    border: solid .7rem #ff6753;
+    border-left: none;
+}
+#start_mission {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    max-width: 28%;
+    color: #ff6753;
+    vertical-align: middle;
+}
 
+#start_mission p {
+    margin: 2rem;
+}
+
+#lever_hitbox {
+    position: absolute;
+    width: 15vh;
+    height: 15vh;
+    left: 19%;
+    bottom: 9vw;
+    /* background-color: orchid;
+    opacity: .4; */
+    z-index: 20;
+}
 
 #lever_anim1, #lever_anim2 {
     opacity: 0;
@@ -205,9 +244,11 @@ body {
 
 #text {
     position: fixed;
-    top: 40vh;
-    vertical-align: middle;
-    /* height: 6rem; */
+    top: 20vh;
+    height: 60vh;
+    align-items: center;
+    display: flex;
+    align-items: center;
 
     text-align: center;
     font-size: 2.8rem;
@@ -215,8 +256,13 @@ body {
     transition: .8s;
 }
 
-#t1, #t2, #t3 {
+
+
+#t1, #t2, #t3, #t4, #t5, #t6, #t7 {
     position: absolute;
+    display: inline;
+    justify-self: center;
+    align-self: center;
     margin-left: 20vw;
     width: 60vw;
     opacity: 0;
@@ -248,13 +294,29 @@ body {
 }
 #a1 {
     position: absolute;
-    top: 400px;
+    top: 300px;
 }
 #a2 {
     position: absolute;
-    top: 800px;
+    top: 600px;
 }
 #a3 {
     position: absolute;
-    top: 5500px;
+    top: 900px;
+}
+#a4 {
+    position: absolute;
+    top: 1200px;
+}
+#a5 {
+    position: absolute;
+    top: 1500px;
+}
+#a6 {
+    position: absolute;
+    top: 1800px;
+}
+#a7 {
+    position: absolute;
+    top: 4000px;
 }

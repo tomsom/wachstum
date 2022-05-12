@@ -152,14 +152,15 @@ p {
     height: 1.5rem;
     width: 1.5rem;
     margin-bottom: .2rem;
-    background-color: #bbbbbb99;
+    background-color: #fff;
     border-radius: 50%;
     display: inline-block;
-    transition: background-color 0.4s ease;
+    opacity: .3;
+    transition: opacity 0.4s ease;
 }
 
 .active, .dot:hover {
-    background-color: #54c6e2;
+    opacity: .8;
 }
 
 #s1, #s2, #s3, #s3, #s4, #s5 {

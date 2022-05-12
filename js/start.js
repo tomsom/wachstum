@@ -6,12 +6,9 @@ window.onload = function() {
 
 }
 
-document.addEventListener('keydown', function(e) {
-    if(e.code == "Space") {
-        console.log("this is my space!");
-        startAnim();
-
-    }
+document.getElementById("lever_hitbox").addEventListener('click', function(e) {
+    console.log("this is my space!");
+    startAnim();
 });
 
 
@@ -42,7 +39,7 @@ function startAnim() {
                 rock_lau.style.visibility = "visible";
                 rock_lau.classList.add("launch"); 
 
-                document.getElementById("smoke").style.opacity = ".6";
+                // document.getElementById("smoke").style.opacity = ".6";
                 document.getElementById("black").style.opacity = "1";
 
                 document.getElementById("rocket_wired").style.display = "none";
@@ -77,13 +74,34 @@ window.addEventListener('scroll', () => {
 
   //SWITCH TEXT ON SCROLL
   switch(true) {
-    case (y>800):
+
+    case (y>1800):
+        document.getElementById("down").setAttribute("href","../html/start.html#a7")
+        hideText();
+        document.getElementById("t7").style.opacity = "1";
+        break;
+    case (y>1500):
+        document.getElementById("down").setAttribute("href","../html/start.html#a6")
+        hideText();
+        document.getElementById("t6").style.opacity = "1";
+        break;
+    case (y>1200):
+        document.getElementById("down").setAttribute("href","../html/start.html#a5")
+        hideText();
+        document.getElementById("t5").style.opacity = "1";
+        break;
+    case (y>900):
+        document.getElementById("down").setAttribute("href","../html/start.html#a4")
+        hideText();
+        document.getElementById("t4").style.opacity = "1";
+        break;
+    case (y>600):
         document.getElementById("down").setAttribute("href","../html/start.html#a3")
         hideText();
         document.getElementById("t3").style.opacity = "1";
         break;
 
-    case (y>400):   
+    case (y>300):   
         document.getElementById("down").setAttribute("href","../html/start.html#a2")
         hideText();
         document.getElementById("t2").style.opacity = "1";
@@ -109,7 +127,7 @@ window.addEventListener('scroll', () => {
 })
 
 function hideText() {
-    for (let i=1; i<4; i++) {
+    for (let i=1; i<8; i++) {
         document.getElementById("t"+i).style.opacity = "0";
     }
 }

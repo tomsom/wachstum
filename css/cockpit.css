@@ -133,8 +133,8 @@ body {
 @keyframes glitch {
     /* opacity */
     0%, 72% {opacity: .1;}
-    1%, 22%, 24%, 71%, 73% {opacity: .4;}
-    10% {opacity: .6;}
+    1%, 22%, 24%, 71%, 73% {opacity: .6;}
+    10% {opacity: .8;}
     
     /* skew */
     19% { transform: perspective(60px) rotateY(-1deg) skewX(0deg);}
