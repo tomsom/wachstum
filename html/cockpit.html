@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cockpit</title>
     <link rel="stylesheet" href="../css/cockpit.css">
     <script src="../js/cockpit.js" defer></script>
 </head>
@@ -41,14 +41,15 @@
         <div id="c_right">
             <div id="monitor">
                 <div id="d_def">
-                    <h3>- choose a destination -</h3>
-                    <h1>select a planet on the radar</h1>
+                    <h1>Welcome on board, stranger!</h1>
+                    <h3>- notice the display at the bottom center?  -</h3>
                     <img id="cursor_img" src="../src/img/radar_cursor_white.svg" alt="">
                 </div>
 
                 <div class="display" id="d_kapi">
                     <h3>- selected planet -</h3>
                     <h1>kapitalus</h1>
+                    <h3 id="kapi_v">status: unvisited</h3>
                     <h2>data:</h2>
                     <p>> distance: 32AE</p>
                     <p>> estimated population: 8.7B</p>
@@ -61,6 +62,7 @@
                 <div class="display" id="d_vari">
                     <h3>- selected planet -</h3>
                     <h1>varicrementer</h1>
+                    <h3 id="vari_v">status: unvisited</h3>
                     <h2>data:</h2>
                     <p>> distance: 64AE</p>
                     <p>> estimated population: 9.1B</p>
@@ -74,6 +76,7 @@
                 <div class="display" id="d_subs">
                     <h3>- selected planet -</h3>
                     <h1>subsistur</h1>
+                    <h3 id="subs_v">status: unvisited</h3>
                     <h2>data:</h2>
                     <p>> distance: 48AE</p>
                     <p>> estimated population: 7.6B</p>
@@ -90,7 +93,16 @@
         
     </div>
 
+    <div id="return">
+        <img class="warning" src="../src/img/warning.svg" alt="">
+        <p>All accesible planets were visited.</p>
+        <p>Get back to home?</p>
+        <div id="answers">
+            <p id="yes">Yes, initiate return</p>
+            <p id="no">No, stay the course</p>
+        </div>
 
+    </div>
      
 </body>
 </html>

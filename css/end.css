@@ -1,0 +1,85 @@
+@font-face {
+    font-family: RobotoSlab;
+    src: url(../src/fonts/RobotoSlab_var.ttf);
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    color: white;
+    font-family: 'RobotoSlab', monospace;
+}
+
+
+
+
+
+#rocket_bottom {
+    background-color: #a0ecff;
+    background: linear-gradient(to bottom, #8bd7ea, #b7c9cc);
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+
+.rock {
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    bottom: 0;
+}
+
+
+#black {
+    position: absolute;
+    opacity: 1;
+    background-color: #000;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    transition: .7s ease-in;
+}
+
+
+
+#brak_o, #brak_c {
+    position: fixed;
+    top: 20vh;
+    height: 60vh;
+    width: 5rem;
+    border: solid rgb(255, 255, 255) 20px;
+    mix-blend-mode: hard-light;
+}
+
+#brak_o {
+    left: 10vw;
+    border-right: none;
+   
+}
+
+#brak_c {
+    right: 10vw;
+    border-left: none;
+}
+
+#text {
+    position: absolute;
+    top: 20vh;
+    left: 20vw;
+    width: 60vw;
+    height: 60vh;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+a {
+    color: #ff6754;
+    text-decoration: none;
+}
+
+
+
+

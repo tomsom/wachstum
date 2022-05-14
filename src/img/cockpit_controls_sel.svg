@@ -26,9 +26,9 @@
      inkscape:document-units="mm"
      showgrid="false"
      showguides="true"
-     inkscape:zoom="1.3932941"
-     inkscape:cx="1538.4405"
-     inkscape:cy="1361.5216"
+     inkscape:zoom="0.98520771"
+     inkscape:cx="882.55501"
+     inkscape:cy="1201.777"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="0"
@@ -40,7 +40,7 @@
        orientation="1,0"
        id="guide22859" />
     <sodipodi:guide
-       position="557.08637,52.259279"
+       position="257.82129,52.259279"
        orientation="0,1"
        id="guide309634" />
   </sodipodi:namedview>
@@ -110,6 +110,17 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.45967px;line-height:1.25;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab, @wght=300';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 300;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0864918;stroke-linecap:square"
        x="38.822742"
        y="156.69482"
+       id="text28163-8-2-4-1-06"><tspan
+         sodipodi:role="line"
+         id="tspan28161-6-8-7-1-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.45967px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab, @wght=300';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 300;fill:#ffffff;fill-opacity:1;stroke-width:0.0864918;stroke-linecap:square"
+         x="38.822742"
+         y="156.69482">1.2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.45967px;line-height:1.25;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab, @wght=300';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 300;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0864918;stroke-linecap:square"
+       x="38.822742"
+       y="156.69482"
        id="text28163-8-2-4-1"><tspan
          sodipodi:role="line"
          id="tspan28161-6-8-7-1"
@@ -117,11 +128,11 @@
          x="38.822742"
          y="156.69482">1.2</tspan></text>
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:#00b4ff;stroke-width:2.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect24470"
+       style="fill:#000000;fill-opacity:1;stroke:#2c2b32;stroke-width:2.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect24470-9"
        width="146.9823"
        height="63.554321"
-       x="-27.115332"
+       x="-27.11533"
        y="140.70973"
        ry="3.1408451" />
     <path
@@ -362,83 +373,6 @@
        transform="scale(1,-1)" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.11314px;line-height:1.25;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00b4ff;fill-opacity:1;stroke:none;stroke-width:0.227829;stroke-linecap:square"
-       x="32.309685"
-       y="153.71609"
-       id="text14105-2"><tspan
-         sodipodi:role="line"
-         id="tspan14103-2"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.11314px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00b4ff;fill-opacity:1;stroke-width:0.227829;stroke-linecap:square"
-         x="32.309685"
-         y="153.71609">TO DO:</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.85229px;line-height:1.25;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#9b9b9b;fill-opacity:1;stroke:none;stroke-width:0.196308;stroke-linecap:square"
-       x="-21.825418"
-       y="166.56104"
-       id="text14105-4"
-       transform="scale(1.0076842,0.9923744)"><tspan
-         sodipodi:role="line"
-         id="tspan14103-6"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.85229px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#9b9b9b;fill-opacity:1;stroke-width:0.196308;stroke-linecap:square"
-         x="-21.825418"
-         y="166.56104">PRESS       TO ACTIVATE TIMEWARP</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.63431px;line-height:1.25;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00b4ff;fill-opacity:1;stroke:none;stroke-width:0.240856;stroke-linecap:square"
-       x="1.5276754"
-       y="165.29091"
-       id="text14105-4-7"><tspan
-         sodipodi:role="line"
-         id="tspan14103-6-7"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.63431px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00b4ff;fill-opacity:1;stroke-width:0.240856;stroke-linecap:square"
-         x="1.5276754"
-         y="165.29091">SPACE</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.45436px;line-height:1.25;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#9b9b9b;fill-opacity:1;stroke:none;stroke-width:0.186359;stroke-linecap:square"
-       x="-21.012133"
-       y="186.44429"
-       id="text14981"><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.45436px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#9b9b9b;fill-opacity:1;stroke-width:0.186359;stroke-linecap:square"
-         x="-21.012133"
-         y="186.44429"
-         id="tspan16982">directions:</tspan><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.45436px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#9b9b9b;fill-opacity:1;stroke-width:0.186359;stroke-linecap:square"
-         x="-21.012133"
-         y="195.76224"
-         id="tspan16986">destination:</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.09186px;line-height:1.25;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#9b9b9b;fill-opacity:1;stroke:none;stroke-width:0.152296;stroke-linecap:square"
-       x="10.734146"
-       y="173.09941"
-       id="text14981-89"><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.09186px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#9b9b9b;fill-opacity:1;stroke-width:0.152296;stroke-linecap:square"
-         x="10.734146"
-         y="173.09941"
-         id="tspan16986-6">and explore the planet</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.45436px;line-height:1.25;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.186359;stroke-linecap:square"
-       x="29.948118"
-       y="187.23476"
-       id="text14981-5"><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.45436px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:0.186359;stroke-linecap:square"
-         x="29.948118"
-         y="187.23476"
-         id="tspan16986-8">radar</tspan><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.45436px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:0.186359;stroke-linecap:square"
-         x="29.948118"
-         y="196.5527"
-         id="tspan222799">set</tspan></text>
-    <text
-       xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.45436px;line-height:1.25;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.186359;stroke-linecap:square;opacity:0.259"
        x="244.84978"
        y="175.13829"
@@ -665,6 +599,17 @@
        cx="292.49567"
        cy="203.88409"
        r="4.8317838" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.11314px;line-height:1.25;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00b4ff;fill-opacity:1;stroke:none;stroke-width:0.227829;stroke-linecap:square"
+       x="32.309685"
+       y="151.17474"
+       id="text14105-2-2"><tspan
+         sodipodi:role="line"
+         id="tspan14103-2-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.11314px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00b4ff;fill-opacity:1;stroke-width:0.227829;stroke-linecap:square"
+         x="32.309685"
+         y="151.17474">TO DO:</tspan></text>
     <path
        style="fill:none;stroke:#282828;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 325.81577,166.98587 168.63121,122.79518 -54.904046,123.87696 -231.2706,166.91771"
@@ -674,6 +619,10 @@
        d="M 47.873346,123.37958 46.378545,-178.20686"
        id="path368122" />
     <path
+       id="path14888"
+       style="fill:none;stroke:#00b4ff;stroke-width:2.3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -22.581023,198.66745 v 0 h 10.906031 m -10.906031,0 v -52.8753 h 10.906035" />
+    <path
        style="fill:none;stroke:#282828;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 325.81577,166.98587 168.63121,122.79518 -54.904046,123.87696 -231.2706,166.91771"
        id="path369200" />
@@ -681,5 +630,37 @@
        style="fill:none;stroke:#282828;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 47.873346,123.37958 46.378545,-178.20686"
        id="path369202" />
+    <path
+       id="path32617"
+       style="fill:none;stroke:#00b4ff;stroke-width:2.3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 115.33261,198.66745 v 0 h -10.90603 m 10.90603,0 v -52.8753 h -10.90603" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.85229px;line-height:1.25;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.196308;stroke-linecap:square"
+       x="46.667885"
+       y="166.44374"
+       id="text14105-4"
+       transform="scale(1.0076842,0.9923744)"><tspan
+         sodipodi:role="line"
+         id="tspan14103-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.85229px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.196308;stroke-linecap:square"
+         x="46.667885"
+         y="166.44374">PRESS SPACE</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.85229px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.196308;stroke-linecap:square"
+         x="46.667885"
+         y="176.25911"
+         id="tspan60490">TO ACTIVATE TIMEWARP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.09186px;line-height:1.25;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#9b9b9b;fill-opacity:1;stroke:none;stroke-width:0.152296;stroke-linecap:square"
+       x="10.87571"
+       y="186.50745"
+       id="text14981-89"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.09186px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#9b9b9b;fill-opacity:1;stroke-width:0.152296;stroke-linecap:square"
+         x="10.87571"
+         y="186.50745"
+         id="tspan16986-6">and explore the planet</tspan></text>
   </g>
 </svg>

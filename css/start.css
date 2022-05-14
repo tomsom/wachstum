@@ -109,7 +109,7 @@ body {
 .launch {
     transition: ease-in;
     transition-duration: .5s;
-    transform: translateY(-80vh);
+    transform: translateY(-100vh);
 
 }
 
@@ -143,7 +143,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 4rem;
+    width: 2rem;
     height: calc(100% - 1.4rem);
     border: solid .7rem #ff6753;
     border-right: none;
@@ -179,6 +179,10 @@ body {
     /* background-color: orchid;
     opacity: .4; */
     z-index: 20;
+}
+
+#lever_hitbox:hover {
+    cursor: pointer;
 }
 
 #lever_anim1, #lever_anim2 {

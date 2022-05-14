@@ -25,18 +25,6 @@ body {
     opacity: .3;
 }
 
-#atmos {
-    position: absolute;
-    background-color: rgb(109, 69, 178);
-    height: 200%;
-    width: 205vw;
-    border-radius: 120vw;
-    opacity: .6;
-    filter: blur(9vw);
-    top: -50%;
-}
-
-
 
 #brak_o, #brak_c {
     position: absolute;
@@ -87,7 +75,7 @@ body {
 
 #boxDiv {
     transform-style: preserve-3d; 
-    transition: .4s 
+    transition: .4s ease-in-out; 
 }
 
 #front {
@@ -133,6 +121,25 @@ p {
     line-height: 1.8rem;
 }
 
+li {
+    margin-top: 1.5rem;
+    text-align: left;
+}
+.e {
+    list-style: none;
+    font-style: italic;
+    margin-top: .6rem;
+    margin-left: 2rem;
+    padding-left: .5rem;
+    border-left: solid 2px white;
+    opacity: .8;
+}
+q {
+    quotes: none;
+    margin-left: 2rem;
+    border-left: 2px white;
+}
+
 
 #quickswitch {
     position: absolute;
@@ -164,10 +171,25 @@ p {
 }
 
 #s1, #s2, #s3, #s3, #s4, #s5 {
+    height: 100%;
+    width: 100%;
+    font-size: 1.3rem;
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
     visibility: hidden;
-    
 }
+p {
+    line-height: 2.2rem;
+}
+
+
+/* .title {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+} */
 
 #rocket {
     position: absolute;
@@ -182,6 +204,17 @@ p {
     animation: rotate 10s infinite linear;
 
     z-index: 10;
+}
+
+#back {
+    font-family: RobotoSlab;
+    font-size: .9rem;
+    position: absolute;
+    bottom: -4rem;
+    width: 100%;
+    text-align: center;
+    opacity: .6;
+    font-style: italic;
 }
 
 

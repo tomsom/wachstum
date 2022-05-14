@@ -1,3 +1,53 @@
+//TEST FOR VISITED PLANETS
+
+// sessionStorage.clear();
+
+getVisited();
+function getVisited() {
+  if(sessionStorage.getItem("kapi_v") == "visited") {
+    document.getElementById("kapi_v").innerHTML = "status: visited";
+  }
+  if(sessionStorage.getItem("vari_v") == "visited") {
+    document.getElementById("vari_v").innerHTML = "status: visited";
+  }
+  if(sessionStorage.getItem("subs_v") == "visited") {
+    document.getElementById("subs_v").innerHTML = "status: visited";
+  }
+
+  if(sessionStorage.getItem("kapi_v") == "visited" &&
+    sessionStorage.getItem("vari_v") == "visited" &&
+    sessionStorage.getItem("subs_v") == "visited") {
+      console.log("UR journey has endeed!");
+      document.getElementById("return").style.transition = ".8s ease-in";
+      document.getElementById("return").style.transform = "translateY(-50vh)";
+    }
+}
+
+document.getElementById("no").addEventListener('click', function(e) {
+  document.getElementById("return").style.transform = "translateY(50vh)";
+});
+
+document.getElementById("yes").addEventListener('click', function(e) {
+  sessionStorage.clear();
+  travelTo("end");
+});
+
+
+function markVisited(planet) {
+  switch(planet) {
+    case "kapi": 
+      sessionStorage.setItem("kapi_v", "visited");
+      break;
+    case "vari":
+      sessionStorage.setItem("vari_v", "visited");
+      break;
+    case "subs":
+      sessionStorage.setItem("subs_v", "visited");
+      break;
+  }
+}
+
+
 fadeIn();
 function fadeIn() {
   document.getElementById("radar").focus();
@@ -97,16 +147,22 @@ var warpSpeed = 0;
 //WARP AND FADE-OUT
 document.addEventListener('keydown', function(e) {
     if(e.code == "Space" && sel !== "def") {
-        warpSpeed = 1;
+        travelTo(sel);
+    }
+});
+
+function travelTo(where) {
+  warpSpeed = 1;
         document.getElementById("black").style.transition = "2s ease-in";
         document.getElementById("black").style.zIndex = "10";
         document.getElementById("black").style.opacity = "1";
+
+        markVisited(where);
     
         setTimeout(() => {
-            document.location.href = sel + ".html";
+            document.location.href = where + ".html";
         }, 2000);
-    }
-});
+}
 
 Star.prototype.updatePos = function(){
   var speedMult = 0.02;

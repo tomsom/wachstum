@@ -1,7 +1,6 @@
-
 #atmos {
     position: absolute;
-    background-color: rgb(109, 69, 178);
+    background-color: rgba(76, 142, 117, 0.74);
     height: 200%;
     width: 205vw;
     border-radius: 120vw;
@@ -10,4 +9,6 @@
     top: -50%;
 }
 
-#s2 {font-size: 1.2rem;}
+#s2 li {
+    margin-top: .5rem;
+}
