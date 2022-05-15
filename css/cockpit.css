@@ -54,7 +54,7 @@ body {
     height: calc(80vh - 10vh);
     border-radius: 50vh;
     border:  solid 3vh #333;
-    cursor: url("../src/img/radar_cursor.png") 32 32, auto; 
+    cursor: url("../src/img/radar_cursor.svg") 32 32, auto; 
     background-color: black;
     /* background-image: url("../src/img/stars.png"); */
     background-image: url("../src/img/radar_default.svg");
@@ -313,14 +313,21 @@ h1 {
     flex-direction: row;
 }
 
+img {
+    -webkit-user-drag: none;
+    user-select: none;
+}
+
 #yes, #no {
     width: 40%;
     margin: 5%;
+    transition: .3s ease-in-out;
 }
 
 #yes:hover,
 #no:hover {
     cursor: pointer;
+    transform: scale(1.15);
 }
 
 #no {

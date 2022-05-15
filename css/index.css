@@ -88,6 +88,10 @@ section {
     transition: .35s ease-in;
 }
 
+#rockets:hover {
+    cursor: pointer;
+}
+
 #r1, #r2 {
     position: absolute;
     top: 0;

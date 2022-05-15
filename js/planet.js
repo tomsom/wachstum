@@ -48,6 +48,10 @@ function checkKey(e) {
        // right arrow
        plusSlides(1);
     }
+    else if (e.keyCode == '32') {
+        // space
+        plusSlides(1);
+     }
 
 }
 
@@ -136,7 +140,7 @@ function showSlides(n) {
         slide[i].style.visibility = "hidden";
     }
         slide[slideIndex].style.visibility = "visible";
-    }, 200);
+    }, 180);
     
 
 

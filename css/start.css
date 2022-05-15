@@ -3,6 +3,10 @@
     src: url(../src/fonts/RobotoSlab_var.ttf);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     overflow-x: hidden;
@@ -270,27 +274,11 @@ body {
     margin-left: 20vw;
     width: 60vw;
     opacity: 0;
-    transition: 1.0s opacity;
+    transition: .2s opacity;
 }
 
 #t1 {opacity: 1;}
 
-#source {
-    position: fixed;
-    bottom: 1rem;
-    right: 1rem;
-    width: 24px;
-    height: 32px;
-    border: solid white 4px;
-
-    color: white;
-    line-height: 32px;
-    font-size: 22px;
-    text-align: center;
-    font-weight: bold;
-    text-decoration: none;
-    font-family: monospace;
-}
 
 #a0 {
     position: absolute;

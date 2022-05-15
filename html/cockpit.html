@@ -12,8 +12,8 @@
 
     <canvas id="warp"></canvas>
 
-    <img id="cockpit_controls" src="../src/img/cockpit_controls.svg" alt="">
-    <img id="cockpit_controls_sel" src="../src/img/cockpit_controls_sel.svg" alt="">
+    <img draggable="false" id="cockpit_controls" src="../src/img/cockpit_controls.svg" alt="">
+    <img draggable="false" id="cockpit_controls_sel" src="../src/img/cockpit_controls_sel.svg" alt="">
 
     <div id="black"></div>
 
@@ -23,12 +23,12 @@
              <div id="radar">
                 <!-- <img id="radar_rocket" src="../src/img/radar_rocket.svg" alt=""> -->
                 <!-- <img class="trail" src="../src/img/radar_default.svg" alt=""> -->
-                <img class="trail" id="def_trail" src="../src/img/radar_trail_default.svg" alt="">
-                <img class="trail" id="kapi_trail" src="../src/img/radar_trail_kapi.svg" alt="">
-                <img class="trail" id="vari_trail" src="../src/img/radar_trail_vari.svg" alt="">
-                <img class="trail" id="subs_trail" src="../src/img/radar_trail_subs.svg" alt="">
+                <img draggable="false" class="trail" id="def_trail" src="../src/img/radar_trail_default.svg" alt="">
+                <img draggable="false" class="trail" id="kapi_trail" src="../src/img/radar_trail_kapi.svg" alt="">
+                <img draggable="false" class="trail" id="vari_trail" src="../src/img/radar_trail_vari.svg" alt="">
+                <img draggable="false" class="trail" id="subs_trail" src="../src/img/radar_trail_subs.svg" alt="">
 
-                <img class="trail" id="radar_scan" src="../src/img/radar_scan.svg" alt="">
+                <img draggable="false" class="trail" id="radar_scan" src="../src/img/radar_scan.svg" alt="">
 
 
                 <div class="planet" id="kapitalus"></div>
@@ -43,7 +43,7 @@
                 <div id="d_def">
                     <h1>Welcome on board, stranger!</h1>
                     <h3>- notice the display at the bottom center?  -</h3>
-                    <img id="cursor_img" src="../src/img/radar_cursor_white.svg" alt="">
+                    <img draggable="false" id="cursor_img" src="../src/img/radar_cursor_white.svg" alt="">
                 </div>
 
                 <div class="display" id="d_kapi">
@@ -95,7 +95,7 @@
 
     <div id="return">
         <img class="warning" src="../src/img/warning.svg" alt="">
-        <p>All accesible planets were visited.</p>
+        <p>All accessible planets have been visited.</p>
         <p>Get back to home?</p>
         <div id="answers">
             <p id="yes">Yes, initiate return</p>

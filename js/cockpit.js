@@ -153,7 +153,7 @@ document.addEventListener('keydown', function(e) {
 
 function travelTo(where) {
   warpSpeed = 1;
-        document.getElementById("black").style.transition = "2s ease-in";
+        document.getElementById("black").style.transition = "2.3s ease-in";
         document.getElementById("black").style.zIndex = "10";
         document.getElementById("black").style.opacity = "1";
 
