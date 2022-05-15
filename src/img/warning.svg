@@ -25,7 +25,7 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.98520767"
-     inkscape:cx="1.5225216"
+     inkscape:cx="-7.6126082"
      inkscape:cy="116.72666"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
@@ -56,16 +56,13 @@
        inkscape:randomized="0"
        d="m 92.245792,150.19496 -28.6449,-1e-5 -28.644902,1e-5 14.322452,-24.80721 14.322449,-24.80722 14.322449,24.80721 z"
        inkscape:transform-center-y="-8.2690718" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:34.667px;line-height:1.25;font-family:Comfortaa;-inkscape-font-specification:'Comfortaa, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00b4ff;fill-opacity:1;stroke:none;stroke-width:0.866676"
-       x="59.475517"
-       y="143.77081"
-       id="text74657"><tspan
-         sodipodi:role="line"
-         id="tspan74655"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:34.667px;font-family:Comfortaa;-inkscape-font-specification:'Comfortaa, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00b4ff;fill-opacity:1;stroke-width:0.866676"
-         x="59.475517"
-         y="143.77081">!</tspan></text>
+    <g
+       aria-label="!"
+       id="text74657"
+       style="font-weight:bold;font-size:34.667px;line-height:1.25;font-family:Comfortaa;-inkscape-font-specification:'Comfortaa, Bold';fill:#00b4ff;stroke-width:0.866676">
+      <path
+         d="m 63.60089,137.35742 c 0.936009,0 1.768017,-0.79734 1.768017,-1.76802 v -17.09083 c 0,-1.00534 -0.762674,-1.80268 -1.768017,-1.80268 -1.005343,0 -1.768017,0.79734 -1.768017,1.80268 v 17.09083 c 0,0.93601 0.762674,1.76802 1.768017,1.76802 z m 0,6.41339 c 1.282679,0 2.392023,-1.04001 2.392023,-2.39202 0,-1.31735 -1.074677,-2.42669 -2.392023,-2.42669 -1.317346,0 -2.392023,1.10934 -2.392023,2.42669 0,1.35201 1.109344,2.39202 2.392023,2.39202 z"
+         id="path23007" />
+    </g>
   </g>
 </svg>

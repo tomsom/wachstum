@@ -209,8 +209,8 @@ p {
 #back {
     font-family: RobotoSlab;
     font-size: .9rem;
-    position: absolute;
-    bottom: -4rem;
+    position: absolute;;
+    bottom: -8rem;
     width: 100%;
     text-align: center;
     opacity: .6;

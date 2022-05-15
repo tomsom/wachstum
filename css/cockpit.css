@@ -295,6 +295,7 @@ h1 {
     bottom: -55vh;
     padding: 2rem;
     background-color: #000;
+    color: white;
     border: #00b4ff solid .8rem;
     border-radius: 2rem;
     z-index: 9;
